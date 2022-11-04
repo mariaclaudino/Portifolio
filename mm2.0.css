@@ -32,9 +32,9 @@ p{font-family: 'Montserrat', sans-serif;
   }
 
 .novidades{
-  top: 850px;
+  top: 900px;
   position: absolute;
-  left: 45%;
+  left: 42%;
 }
 /*
 a:hover.comprar, a:active.comprar{
@@ -390,27 +390,40 @@ a:hover.icone, a:active.icone{
 
 /*parte de amostra de produto*/
 
-#legenda{
-  position: relative;
-  width: 290px;
+table.legenda{
+  width: 1289px;
   height: 100px;
-  top: 360px;
-  right: 80px;
-  display: inline-block;
-  border: 5px solid rgb(232, 0, 0);
+  top: 1360px;
+  border: 5px solid rgb(0, 62, 232);
+  text-align: center;
+}
+
+table.transform-img{
+  width: auto;
+  height: 360px;
+  top: 1000px;
+  border: 5px solid rgb(228, 232, 0);
+}
+
+.transform-img-td1{
+  border: 1px solid black; text-align: center; padding-right: 30px;
+}
+
+.transform-img-td2{
+  border: 1px solid black; text-align: center; 
 }
 
 #transform-img{
-  position: relative;
-  width: 1000px;
-  height: 360px;
-  top: 950px;
-  left: 100px;
+  position: absolute;
+  width: 1290px;
+  height: 380px;
+  top: 1000px;
+  left: 150px;
   display: block;
-  border: 5px solid rgb(232, 0, 201);
+  border: 5px solid rgb(0, 232, 50);
 }
 .transform-img1{
-  position: absolute;
+  position: relative;
   width: 290px;
   height: 360px;
   left: 0px;
@@ -427,7 +440,7 @@ a:hover.icone, a:active.icone{
   visibility: visible;
   opacity: 1;
   }
-
+/*
 .transform-img2{
   margin-left: 50px ;
   position: absolute;
@@ -468,7 +481,7 @@ a:hover.icone, a:active.icone{
   visibility: visible;
   position: absolute;
   opacity: 1;
-  }
+  }*/
 /*Corpo da pag padrao*/
 
 
