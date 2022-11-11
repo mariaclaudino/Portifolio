@@ -366,10 +366,12 @@ a:hover.icone, a:active.icone{
 
 /*parte de amostra de produto*/
 
-.novidades{
-  top: 860px;
-  position: absolute;
-  left: 40%;
+#novidades{
+  top: 800px;
+  width: 400px;
+  font-size: large;
+  position: relative;
+  text-align: center;
 }
 
 table.transform-img{
@@ -406,14 +408,14 @@ p.transform-img{
   padding-bottom: 15px;
 }
 .transform-img-td2:hover{
-    border: 1px solid rgb(100, 100, 100); 
+    border: 2px solid rgb(100, 100, 100); 
     text-align: center; 
+    border-radius: 5px;
   }
 
 #transform-img{
   position: absolute;
   width: 1290px;
-  height: 53px;
   top: 1000px;
   left: 125px;
   display: block;
@@ -465,29 +467,21 @@ p.transform-img{
 /*Parte 2 das amostras*/
 
 .novidades2{
-  top: 1600px;
-  position: absolute;
-  left: 40%;
+    top: 1450px;
+    width: 400px;
+    font-size: large;
+    position: relative;
+    text-align: center;
 }
 
 #transform-img2{
   position: absolute;
   width: 1290px;
-  height: 495px;
+  height: 530px;
   top: 1700px;
   left: 125px;
   display: block;
-  border: 5px solid rgb(0, 232, 50);
 }
-
-
-table.transform-img2{
-  width: auto;
-  height: 370px;
-  top: 1700px;
-  border: 5px solid rgb(228, 232, 0);
-}
-
 /*Corpo da pag padrao*/
 
 
