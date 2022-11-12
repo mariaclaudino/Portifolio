@@ -145,7 +145,7 @@ a:hover, a:active{
 }
 /*Aqui começa as divs do cabçalho*/
  .div1{
-  left: 50px;
+  left: 100px;
   position: absolute;
   top: 10%;
 }
@@ -160,7 +160,7 @@ a:hover, a:active{
 }
 
  .div3{
-  right: 10px;
+  right: 100px;
   position: absolute;
   bottom: 45%;
   word-spacing: 100px;
@@ -179,6 +179,7 @@ a:hover, a:active{
 /*Tabela div 3 - Cabeçalho*/
  table.tablediv3{
   width: 100px;
+  right: 100pz;
  }
 
 /*Tabela dos beneficios no meio da home*/
@@ -442,7 +443,7 @@ p.transform-img{
 
   a.btncomprar:hover, a.btncomprar:active{
     border-radius: 5px;
-    background-color: #bffd4c;
+    background-color: #8dbe32;
     color: rgb(0, 0, 0);
     padding-bottom:3;
     padding-top: 3;
@@ -454,7 +455,7 @@ p.transform-img{
   
    a.btncomprar:link{
     border-radius: 5px;
-    background-color: #a3d841;
+    background-color: #c0ff4a;
     color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-top: 5px;
