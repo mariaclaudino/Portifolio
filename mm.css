@@ -76,12 +76,20 @@ a:hover, a:active{
 /*Aqui começa o menu dropdown*/
 .dpmenu  ul{
   list-style-type: none;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   padding: 0px;
   position: absolute;
   transition: background 0.3s;
   text-align: left;
  }
+
+.dpmenu a{
+  border-radius: none;
+  background-color: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .dpmenu ul li{
   display: inline; 
@@ -97,7 +105,7 @@ a:hover, a:active{
 
  .dpmenu ul li a:hover{
   display: inline-block;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
@@ -117,7 +125,7 @@ a:hover, a:active{
 
  .dpmenu  ul ul {
   width: 150px;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   text-align: center;
  }
 
@@ -135,7 +143,7 @@ a:hover, a:active{
 #cabecalho{
   width: 100%;
   height: 125px;
-  background-color: #edf6f9;
+  background-color: #fefefe;
   position: fixed;
   top: 0px;
   box-shadow: rgba(111, 111, 111, 0.09) 0px 2px 1px, rgba(111, 111, 111, 0.09) 0px 4px 2px, rgba(111, 111, 111, 0.09) 0px 8px 4px, rgba(111, 111, 111, 0.09) 0px 16px 8px, rgba(111, 111, 111, 0.09) 0px 32px 16px;
@@ -179,7 +187,6 @@ a:hover, a:active{
 /*Tabela div 3 - Cabeçalho*/
  table.tablediv3{
   width: 100px;
-  right: 100pz;
  }
 
 /*Tabela dos beneficios no meio da home*/
@@ -203,7 +210,7 @@ table.beneficios td{
 #rodape{
   width: 100%;
     height: 400px;
-    background-color: #edf6f9;
+    background-color: #ffffff;
     position: relative;
     top: 2200px;
     border: 1px solid rgb(190, 190, 190);
@@ -213,7 +220,7 @@ table.beneficios td{
 #rodapeparte1{
     width: 100%;
     height: 200px;
-    background-color: #edf6f9;
+    background-color: #ffffff;
     border: 1px solid rgb(190, 190, 190);
     position: relative;
     text-align: left;
@@ -222,7 +229,7 @@ table.beneficios td{
 #rodapeparte2{
   width: 100%;
   height: 200px;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   border: 1px solid rgb(190, 190, 190);
   position: absolute;
   text-align: left;
