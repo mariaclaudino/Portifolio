@@ -83,7 +83,7 @@ a:hover, a:active{
 /*Aqui começa o menu dropdown*/
 .dpmenu  ul{
   list-style-type: none;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   padding: 0px;
   position: absolute;
   transition: background 0.3s;
@@ -104,7 +104,7 @@ a:hover, a:active{
 
  .dpmenu ul li a:hover{
   display: inline-block;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   text-decoration: underline;
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
@@ -124,7 +124,7 @@ a:hover, a:active{
 
  .dpmenu  ul ul {
   width: 150px;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   text-align: center;
  }
 
@@ -142,7 +142,7 @@ a:hover, a:active{
 #cabecalho{
   width: 100%;
   height: 125px;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   position: fixed;
   top: 0px;
   box-shadow: rgba(111, 111, 111, 0.09) 0px 2px 1px, rgba(111, 111, 111, 0.09) 0px 4px 2px, rgba(111, 111, 111, 0.09) 0px 8px 4px, rgba(111, 111, 111, 0.09) 0px 16px 8px, rgba(111, 111, 111, 0.09) 0px 32px 16px;
@@ -167,7 +167,7 @@ a:hover, a:active{
 }
 
  .div3{
-  right: 10px;
+  right: 100px;
   position: absolute;
   bottom: 45%;
   word-spacing: 100px;
@@ -191,8 +191,8 @@ ul.ancoras{
   font-family: 'Montserrat', sans-serif; 
   font-size: medium;
 }
-ul.ancoras li{
-  list-style-type: none;
+ul.ancoras ul{
+  list-style-type: square;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
@@ -349,7 +349,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 1610px;
+  top: 1650px;
   left: 100px;
 }
 
@@ -357,7 +357,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 2170px;
+  top: 2210px;
   left: 100px;
 }
 
@@ -365,7 +365,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 2830px;
+  top: 2910px;
   left: 100px;
 }
 
@@ -373,7 +373,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 3390px;
+  top: 3470px;
   left: 100px;
 }
 
@@ -412,7 +412,7 @@ p.transform-img{
   position: absolute;
   width: 700px;
   height: 100px;
-  top: 2730px;
+  top: 2770px;
   left: 400px;
 }
 
@@ -451,9 +451,9 @@ a.aquelas:hover, a.aquelas:active{
 #rodape{
   width: 100%;
     height: 400px;
-    background-color: #edf6f9;
+    background-color: #ffffff;
     position: relative;
-    top: 3900px;
+    top: 4000px;
     border: 1px solid rgb(190, 190, 190);
     text-align: left;
 }
@@ -461,7 +461,7 @@ a.aquelas:hover, a.aquelas:active{
 #rodapeparte1{
     width: 100%;
     height: 200px;
-    background-color: #edf6f9;
+    background-color: #ffffff;
     border: 1px solid rgb(190, 190, 190);
     position: relative;
     text-align: left;
@@ -470,7 +470,7 @@ a.aquelas:hover, a.aquelas:active{
 #rodapeparte2{
   width: 100%;
   height: 200px;
-  background-color: #edf6f9;
+  background-color: #ffffff;
   border: 1px solid rgb(190, 190, 190);
   position: absolute;
   text-align: left;
@@ -527,7 +527,7 @@ td.rodape1{
  }
 
 table.redessociais{
-  width: 33%;
+  width: 300px;
   position: static;
   top: auto;
   text-align: left;
