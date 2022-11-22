@@ -90,7 +90,7 @@ a:hover, a:active{
     line-height: 10px;
     text-align: end;
     position: absolute;
-    left: 430px;
+    left: 425px;
     border-radius: 10px;
     background-color: #000000;
     color: #ffffff;
@@ -206,19 +206,11 @@ button.botaolupa{
   right: 100px;
   position: absolute;
   bottom: 45%;
-  word-spacing: 100px;
-  justify-content: end;
 }
-
-/*Tabela div 3 - Cabeçalho*/
- table.tablediv3{
-  width: 100px;
- }
-
 
 .mnancora{
   position: absolute;
-  top: 280px;
+  top: 300px;
   left: 100px;
   width: 250px;
 }
@@ -324,7 +316,7 @@ p.transform-img{
 #transform-img{
   position: absolute;
   width: 980px;
-  top: 400px;
+  top: 450px;
   left: 400px;
   display: block;
 }
@@ -377,7 +369,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 950px;
+  top: 1000px;
   left: 100px;
 }
 
@@ -385,7 +377,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 1650px;
+  top: 1700px;
   left: 100px;
 }
 
@@ -393,7 +385,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 2210px;
+  top: 2260px;
   left: 100px;
 }
 
@@ -401,7 +393,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 2910px;
+  top: 2960px;
   left: 100px;
 }
 
@@ -409,7 +401,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 3470px;
+  top: 3520px;
   left: 100px;
 }
 
@@ -417,7 +409,7 @@ p.transform-img{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 3950px;
+  top: 4000px;
   left: 100px;
 }
 
@@ -432,7 +424,7 @@ p.transform-img{
   position: absolute;
   width: 700px;
   height: 100px;
-  top: 250px;
+  top: 300px;
   left: 520px;
 }
 
@@ -440,7 +432,7 @@ p.transform-img{
   position: absolute;
   width: 700px;
   height: 100px;
-  top: 1510px;
+  top: 1560px;
   left: 400px;
 }
 
@@ -448,7 +440,7 @@ p.transform-img{
   position: absolute;
   width: 700px;
   height: 100px;
-  top: 2770px;
+  top: 2820px;
   left: 400px;
 }
 
@@ -489,7 +481,7 @@ a.aquelas:hover, a.aquelas:active{
     height: 400px;
     background-color: #ffffff;
     position: relative;
-    top: 4000px;
+    top: 4100px;
     border: 1px solid rgb(190, 190, 190);
     text-align: left;
 }
