@@ -84,13 +84,13 @@ a:hover, a:active{
 .mnmeio{
     top: 170px;
     text-align: center;
-    width: 750px;
+    width: 620px;
     height: 60px;
     border: 1px solid black;
     line-height: 10px;
     text-align: end;
     position: absolute;
-    left: 425px;
+    left: 490px;
     border-radius: 10px;
     background-color: #000000;
     color: #ffffff;
@@ -197,7 +197,7 @@ button.botaolupa{
 
 .barradepesquisa, input.barradepesquisa:visited, input.barradepesquisa:active{
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width:700px;
     border: none;
 }
@@ -566,7 +566,7 @@ table.redessociais{
   width: 20%;
   height: 150px;
   right: 250px;
-  bottom: 25px;
+  top: 40px;
 }
 
 #sobrenos{
@@ -574,7 +574,7 @@ table.redessociais{
   width: 33%;
   height: 170px;
   left: 600px;
-  bottom: 25px;
+  top: 50px;
  }
 
 span.style{
@@ -639,4 +639,98 @@ a:hover.icone, a:active.icone{
   text-shadow: none;
   border-radius: 20px;
   height: 30px;
+}
+
+.navbar {
+  padding: 20px;
+  position: fixed;
+  width: 50px;
+  top: 15px;
+  right: 0;
+  height: 50px;
+}
+
+#toggle{
+  position: absolute;
+  opacity: 0;
+}
+  
+label{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 30px;
+  top: 40%;
+  }
+  label span{
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 30px;
+    background: #000000;
+    transition: 0.25s ease-in-out;
+    }
+
+    label span:nth-child(1){
+    top: 0;
+    
+    }
+    
+    label span:nth-child(2){
+    top: 8px;
+    }
+    
+    label span:nth-child(3){
+    top: 16px;
+    }
+    
+    #toggle:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+    }
+    
+    #toggle:checked + label span:nth-child(2){
+    opacity: 0;
+    }
+    
+    #toggle:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+    }
+
+/* Slide menu when checkbox is checked */
+input#toggle:checked + ul.navigation-menu {
+  right: 0;
+}
+
+
+/*lista*/
+.navigation-menu {
+  background: rgb(150, 150, 150);
+  height: 100%;
+  width: 15%;
+  padding: 20px 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  position: fixed;
+  right: -45%;
+  top: 125px;
+  transition: all 0.5s;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.navigation-menu li {
+  padding: 30px 0;
+}
+
+.navigation-menu a {
+  color: #E5E5E5;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  transition:all 0.3s;
 }

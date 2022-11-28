@@ -195,13 +195,11 @@ button.botaolupa{
     border-radius: 10px;
 }
 
-.barradepesquisa, .barradepesquisa:visited, .barradepesquisa:active{
+.barradepesquisa, input.barradepesquisa:visited, input.barradepesquisa:active{
     border-radius: 10px;
     height: 30px;
     width:700px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
 }
 button#barra{
     border: 20px;
@@ -452,7 +450,7 @@ p.transform-img{
   position: absolute;
   width: 1400px;
   height: 1001px;
-  top: 125px;
+  top: 150px;
   left: 100px;
   text-align: center;
 }
@@ -511,7 +509,7 @@ a.aquelas:hover, a.aquelas:active{
     height: 400px;
     background-color: #ffffff;
     position: relative;
-    top: 1200px;
+    top: 1500px;
     border: 1px solid rgb(190, 190, 190);
     text-align: left;
 }
