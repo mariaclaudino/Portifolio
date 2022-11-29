@@ -159,11 +159,11 @@ a:hover, a:active{
 }
 
  .div2{
-  left: 500px;
+  left: 400px;
   position: absolute;
   bottom: 40%;
   font-family: 'Montserrat', sans-serif;
-  width: 600px;
+  width: 1000px;
   height: 50px;
 }
 
@@ -506,30 +506,6 @@ table.botoesimagens{
   height: 360px;
   border: 1px solid red;
 }
-
-
-table.redessociais{
-  width: 300px;
-  position: static;
-  top: auto;
-  text-align: left;
- }
-#seguranca{
- position: absolute;
-  bottom: 0px;
-  width: 20%;
-  height: 150px;
-  right: 250px;
-  top: 40px;
-}
-
-#sobrenos{
-  position: absolute;
-  width: 33%;
-  height: 170px;
-  left: 600px;
-  top: 50px;
- }
 
 
 
