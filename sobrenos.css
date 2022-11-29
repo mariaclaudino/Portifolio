@@ -450,10 +450,10 @@ p.transform-img{
 
 #titulo{
   position: absolute;
-  width: 1400px;
-  height: 1001px;
+  width: 1200px;
+  height: 1000px;
   top: 125px;
-  left: 100px;
+  left: 200px;
   text-align: center;
 }
 
@@ -511,7 +511,7 @@ a.aquelas:hover, a.aquelas:active{
     height: 400px;
     background-color: #ffffff;
     position: relative;
-    top: 1250px;
+    top: 1300px;
     border: 1px solid rgb(190, 190, 190);
     text-align: left;
 }
