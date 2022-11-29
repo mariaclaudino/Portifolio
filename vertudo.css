@@ -10,7 +10,7 @@ h1{font-family: 'Montserrat', sans-serif;
   color: rgb(64,64,64);
   text-align: center;
   }
-#geral{margin-left: auto;
+#geral{margin-left: 0;
   }
 h1.negrito{
   font-family: 'Montserrat', sans-serif;
@@ -373,6 +373,14 @@ p.transform-img{
   left: 100px;
 }
 
+#titulo2{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 1560px;
+  left: 400px;
+}
+
 #terlinha{
   position: absolute;
   width: 1300px;
@@ -387,6 +395,14 @@ p.transform-img{
   height: auto;
   top: 2260px;
   left: 100px;
+}
+
+#titulo3{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 2820px;
+  left: 400px;
 }
 
 #quilinha{
@@ -405,11 +421,123 @@ p.transform-img{
   left: 100px;
 }
 
+#titulo4{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 4080px;
+  left: 400px;
+}
+
 #setlinha{
   position: absolute;
   width: 1300px;
   height: auto;
-  top: 4000px;
+  top: 4220px;
+  left: 100px;
+}
+
+#oitlinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 4780px;
+  left: 100px;
+}
+
+#titulo5{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 5340px;
+  left: 400px;
+}
+
+#nonlinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 5480px;
+  left: 100px;
+}
+
+#declinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 6040px;
+  left: 100px;
+}
+
+#titulo6{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 6600px;
+  left: 400px;
+}
+
+#decplinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 6740px;
+  left: 100px;
+}
+
+#decslinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 7300px;
+  left: 100px;
+}
+
+#titulo7{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 7860px;
+  left: 400px;
+}
+
+#dectlinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 8000px;
+  left: 100px;
+}
+
+#decqualinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 8560px;
+  left: 100px;
+}
+
+#titulo8{
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  top: 9120px;
+  left: 400px;
+}
+
+#decquilinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 9260px;
+  left: 100px;
+}
+
+#decsexlinha{
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 9820px;
   left: 100px;
 }
 
@@ -426,22 +554,6 @@ p.transform-img{
   height: 100px;
   top: 300px;
   left: 520px;
-}
-
-#titulo2{
-  position: absolute;
-  width: 700px;
-  height: 100px;
-  top: 1560px;
-  left: 400px;
-}
-
-#titulo3{
-  position: absolute;
-  width: 700px;
-  height: 100px;
-  top: 2820px;
-  left: 400px;
 }
 
 h1.titulo{
@@ -481,9 +593,12 @@ a.aquelas:hover, a.aquelas:active{
     height: 400px;
     background-color: #ffffff;
     position: relative;
-    top: 4100px;
+    top: 10380px;
     border: 1px solid rgb(190, 190, 190);
     text-align: left;
+    
+  left: 0;
+  right: 0;
 }
 
 #rodapeparte1{
@@ -493,6 +608,9 @@ a.aquelas:hover, a.aquelas:active{
     border: 1px solid rgb(190, 190, 190);
     position: relative;
     text-align: left;
+    
+  left: 0;
+  right: 0;
 }
 
 #rodapeparte2{
@@ -502,6 +620,8 @@ a.aquelas:hover, a.aquelas:active{
   border: 1px solid rgb(190, 190, 190);
   position: absolute;
   text-align: left;
+  left: 0;
+  right: 0;
 }
 
 #rodape1{
