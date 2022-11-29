@@ -159,7 +159,7 @@ a:hover, a:active{
 }
 
  .div2{
-  left: 400px;
+  left: 500px;
   position: absolute;
   bottom: 40%;
   font-family: 'Montserrat', sans-serif;
@@ -286,26 +286,27 @@ td.rodape1{
  }
 
 table.redessociais{
-  width: 33%;
-  position: static;
-  top: auto;
-  text-align: left;
- }
-#seguranca{
- position: absolute;
-  bottom: 0px;
-  width: 20%;
-  height: 150px;
-  right: 250px;
-  bottom: 25px;
-}
-
-#sobrenos{
+  width:  300px;
   position: absolute;
-  width: 33%;
-  height: 170px;
-  left: 600px;
-  bottom: 25px;
+  top: auto;
+  text-align: center;
+ }
+
+ #seguranca{
+  position: absolute;
+   bottom: 0px;
+   width: 20%;
+   height: 150px;
+   right: 250px;
+   top: 40px;
+ }
+ 
+ #sobrenos{
+   position: absolute;
+   width: 33%;
+   height: 170px;
+   left: 600px;
+   top: 50px;
  }
 
 span.style{
