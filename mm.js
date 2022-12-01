@@ -1,0 +1,1 @@
+alert('Seja bem-vindo à, MariMaria!')

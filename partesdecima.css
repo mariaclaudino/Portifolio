@@ -182,8 +182,8 @@ a:hover, a:active{
   position: absolute;
   bottom: 30%;
   font-family: 'Montserrat', sans-serif;
-  height: 50px;
-  width: 750px;
+  height: 40px;
+  border: 1px solid black;
   border-radius: 10px;
 }
 
@@ -200,73 +200,12 @@ button.botaolupa{
     height: 30px;
     width:700px;
     border: none;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
     outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
-
-
-
-#searchbar{
-  margin-left: 0;
-  padding:15px;
-  border-radius: 10px;
-}
-
-input[type=text] {
-   width: 100%;
-   -webkit-transition: width 0.15s ease-in-out;
-   transition: width 0.15s ease-in-out;
-}
-
-
-/* When the input field gets focus,
-     change its width to 100% */
-input[type=text]:focus {
-  width: 100%;
-}
-
-#list{
- font-size:  1.5em;
- margin-left: 90px;
- visibility: hidden;
- border: 1px solid black;
- background-color: #ffffff;
- box-shadow: 1px 1px 2px rgb(130, 130, 130);
- border-radius: 10px;
- padding-bottom: 10px;
-}
-
-input[type=text]:focus + ol#list{
-  font-size:  1.5em;
-  margin-left: 0;
-  visibility: visible;
- }
-
-a:hover, a:active ol#list{
-  background-color: #ff0000;
- }
-
- a:link, a:visited ol#list{
-  background-color: none;
- }
-
-
-.animals{
-display: list-item;    
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  .div3{
   right: 100px;
